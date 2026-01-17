@@ -83,7 +83,8 @@
 
 + How to set up Kali Linux ?
   Get Kali Linux on VMware: https://www.kali.org/get-kali/#kali-platforms
- (https://www.kali.org/get-kali/#kali-platforms)Get Workstation 17 Pro for Windows:  https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html
+ (https://www.kali.org/get-kali/#kali-platforms)
+ Get Workstation 17 Pro for Windows:  https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html
 
 4A4RR-813DK-M81A9-4U35H-06KND
 NZ4RR-FTK5H-H81C1-Q30QH-1V2LA
@@ -105,4 +106,30 @@ How to install:
 4- Run or open the power
 
 + Learn Basic Linux Commands
-- 
+- File and Folder Navigation
+      ls: Lists files and directories in the current directory.
+      pwd: (Print Working Directory) Displays the full path of your current location.
+      cd: (Change Directory) Navigates to a different directory.
+      mkdir: (Make Directory) Creates a new directory.
+      rmdir: (Remove Directory) Deletes an empty directory. 
+- File Management
+      touch: Creates a new, empty file.
+      cp: (Copy) Copies files or directories.
+      mv: (Move) Moves or renames files and directories.
+      rm: (Remove) Deletes files or directories.
+      cat: (Concatenate) Displays the contents of a file. 
+      Text Processing
+      grep: Searches for a specific text pattern within files.
+      head: Displays the first few lines of a file.
+      tail: Displays the last few lines of a file. 
+      Permissions and Ownership
+      chmod: Changes the permissions (read, write, execute) of a file or directory.
+      chown: Changes the owner and group of a file or directory.
+      sudo: (Super User DO) Executes a command with superuser privileges. 
+- System Monitoring
+      top: Provides a dynamic view of running processes and resource usage.
+      ps: (Process Status) Lists the currently running processes.
+      df: (Disk Free) Reports the file system disk space usage.
+      uname: Prints system information.
+      clear: Clears the terminal screen. 
+
