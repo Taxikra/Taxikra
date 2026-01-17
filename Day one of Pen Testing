@@ -1,0 +1,108 @@
++ What is Penetration Testing ?
+   Penetration testing (pen testing) is a simulated cyberattack where authorized ethical hackers try to find and exploit vulnerabilities in a system, network, or application to identify weaknesses before malicious attackers do, helping organizations proactively strengthen defenses, ensure compliance, and prevent real breaches.
++ Types: Black box, White box, Grey box
+     + Black Box Testing
+      Meaning: You test the system without knowing the internal code or structure.
+      You only check input → output.
+       Example: Login page testing
+       Enter correct username/password → should login
+       Enter wrong password → should show error
+       Focus: Functionality, user behavior
+     + White Box Testing
+       Meaning: You test the system with full knowledge of the internal code.
+       You check logic, conditions, loops, paths, code structure.
+       Example: Developer checks if every if/else condition in the login code works correctly.
+       Focus: Code quality, logic, security
+     + Grey Box Testing
+       Meaning: Combination of Black Box and White Box.
+       You have partial knowledge of the system (e.g., architecture, database, APIs).
+       Example: Tester knows the database structure and tests login by checking both UI and DB records.
+       Focus: Integration issues, data flow
++ Legal vs Illegal hacking
+  + Legal Hacking (Ethical Hacking) (Protect)
+  Meaning: Hacking that is done with permission to improve security.
+  Purpose: Find vulnerabilities and fix them before attackers do.
+  Who does it?
+  - Ethical hackers
+  - Penetration testers
+  - Cybersecurity professionals
+  Example: A company hires a hacker to test their website security.
+  Also called:
+  White Hat Hacking
+  + Illegal Hacking (Criminal Hacking) (Attacks)
+  Meaning:
+  Hacking done without permission to steal, damage, or spy.
+  Purpose:
+  Personal gain, revenge, stealing data, causing harm.
+  Who does it?
+  - Cyber criminals
+  - Hackers with bad intentions
+  Example:
+  Someone breaks into your Facebook account and steals your messages.
+  Also called:
+  Black Hat Hacking
+
++ Pentesting phases:
+  - Reconnaissance (Information Gathering)
+    Goal: Collect as much information as possible about the target.
+    What happens here:
+    - Find IP address, domain, subdomains
+    - Discover technologies used (OS, server, software)
+    - Collect emails, usernames, public info
+    Example: Using Google to find employee emails of a company. 
+  - Scanning
+    Goal: Find open doors (vulnerabilities).
+    What happens here:
+    - Scan open ports
+    - Detect services and versions
+    - Identify vulnerabilities
+    Tools example: Nmap, Nessus
+  - Exploitation
+    Goal: Use the vulnerability to get access.
+    What happens here:
+    - Exploit weak passwords
+    - Inject malicious commands (SQL Injection)
+    - Gain unauthorized access
+    Example: Using SQL Injection to login without password.
+  - Post-exploitation
+    Goal: Maintain access and assess impact.
+    What happens here:
+    - Privilege escalation (become admin)
+    - Install backdoor
+    - Steal data or move to other systems
+    Example: Hacker gets admin control after login.
+  - Reporting
+    Goal: Document everything clearly.
+    What happens here:
+    - List vulnerabilities found
+    - Explain risks
+    - Give solutions and recommendations
+    Example: 
+    A report telling the company:
+    “Your system allows weak passwords. You should enforce strong password policy.”
+
++ How to set up Kali Linux ?
+  Get Kali Linux on VMware: https://www.kali.org/get-kali/#kali-platforms
+ (https://www.kali.org/get-kali/#kali-platforms)Get Workstation 17 Pro for Windows:  https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html
+
+4A4RR-813DK-M81A9-4U35H-06KND
+NZ4RR-FTK5H-H81C1-Q30QH-1V2LA
+JU090-6039P-08409-8J0QH-2YR7F
+4Y09U-AJK97-089Z0-A3054-83KLA
+4C21U-2KK9Q-M8130-4V2QH-CF810
+
+Serial keys:
+ZF3R0-FHED2-M80TY-8QYGC-NPKYF
+YF390-0HF8P-M81RQ-2DXQE-M2UT6
+ZF71R-DMX85-08DQY-8YMNC-PPHV8
+AZ3E8-DCD8J-0842Z-N6NZE-XPKYF
+FC11K-00DE0-0800Z-04Z5E-MC8T6
+
+How to install:
+1- You must set up  VMware on your computer
+2- After downloading and installing already you need to extract the file Kali Linux for VMware
+3- Open VMware and open the Machine 
+4- Run or open the power
+
++ Learn Basic Linux Commands
+- 
