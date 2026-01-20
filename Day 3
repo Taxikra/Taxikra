@@ -1,0 +1,26 @@
++ Linux Processes & Services 
+  - Commands line
+    ps
+    ps aux
+    top
+    htop
+    systemctl list-units --type=service
+---------------------------------------------------------------
+    Learn:
+    Process = running program
+    Service = background program (like SSH, Apache)
+    Why services matter (they open ports = attack surface)
+    Example:
+    If Apache is running → port 80 open → web attack possible.
++ Understand Vulnerabilities (30 minutes)
+    Learn these basic ideas:
+    Vulnerability = weakness
+    Exploit = method to use the weakness
+    Common beginner vulnerabilities:
+    - Weak passwords
+    - Open ports
+    - Outdated software
+    - Misconfigured permissions
+    Real example:
+    FTP allows anonymous login → attacker logs in without password.
+
