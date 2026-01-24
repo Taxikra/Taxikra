@@ -1,10 +1,10 @@
 + Linux Processes & Services 
   - Commands line
-    ps
-    ps aux
-    top
-    htop
-    systemctl list-units --type=service
+    ps: Show your terminal processes
+    ps aux or tesk manager in kali : Show all system processes
+    top: Live process & system monitor
+    htop: Better version of top. top and htop type of wireshark
+    systemctl list-units --type=service: Show active system services
 ---------------------------------------------------------------
     Learn:
     Process = running program
